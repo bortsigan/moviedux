@@ -1,0 +1,16 @@
+import React from "react";
+import '../styles.css';
+
+
+export default function Header() {
+
+    return (
+        <div className="header">
+
+            <img className="logo" src="logo.png" alt="moviedux" />
+            <h2 className="app-subtitle">
+                It is time for Puff corn! Find your next movie here and there
+            </h2>
+        </div>
+    )
+}
